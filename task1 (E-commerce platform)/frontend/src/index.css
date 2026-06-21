@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+@import "tailwindcss";
+a.active hr{
+    display:block;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+@media(max-width:640px){
+  a.active{
+    background-color:#7A1E2C;
+    color:#FFFBF5 ;
+  }
+}
+body{
+    background-color: #FAF3E8;
+}
